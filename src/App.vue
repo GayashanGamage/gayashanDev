@@ -1,5 +1,5 @@
 <template>
-  <p>this is home page</p>
+  <p>this is home page of german site</p>
   <siteFooter></siteFooter>
 </template>
 
