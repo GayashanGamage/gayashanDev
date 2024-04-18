@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <div class="intro sub-container">Introduction</div>
+    <div class="intro sub-container">
+      <Intro></Intro>
+    </div>
     <div class="menu sub-container">Menu</div>
     <div class="content sub-container">Content</div>
     <div class="footer sub-container">Footer</div>
@@ -8,6 +10,8 @@
 </template>
 
 <script setup>
+import Intro from "./components/Intro.vue";
+
 name: "App";
 </script>
 
@@ -19,7 +23,7 @@ name: "App";
   display: grid;
   width: 100%;
   height: 731px;
-  grid-template-columns: repeat (2, 1fr);
+  grid-template-columns: 1fr 750px;
   grid-template-rows: 2fr 20fr 2fr;
   grid-template-areas:
     "intoduction menu"
