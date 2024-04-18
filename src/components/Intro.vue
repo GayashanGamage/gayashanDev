@@ -2,7 +2,7 @@
   <div class="section">
     <p>Hello... I'm</p>
     <h1>GAYASHAN GAMAGE</h1>
-    <h3>software engineer</h3>
+    <h3>SOFTWARE ENGINEER</h3>
   </div>
   <div class="section">
     <p>
@@ -18,57 +18,55 @@
         <p class="technology-name">python</p>
       </div>
       <div class="technology-card">
-        <i class="devicon-fastapi-plain colored technology-icon"></i>
+        <i class="devicon-fastapi-plain technology-icon"></i>
         <p class="technology-name">Fast API</p>
       </div>
       <div class="technology-card">
-        <i class="devicon-django-plain colored technology-icon"></i>
+        <i class="devicon-django-plain technology-icon"></i>
         <p class="technology-name">Django</p>
       </div>
       <div class="technology-card">
-        <i class="devicon-mongodb-plain colored technology-icon"></i>
+        <i class="devicon-mongodb-plain technology-icon"></i>
         <p class="technology-name">MongoDB</p>
       </div>
       <div class="technology-card">
-        <i class="devicon-postgresql-plain colored technology-icon"></i>
+        <i class="devicon-postgresql-plain technology-icon"></i>
         <p class="technology-name">PostGreSQL</p>
-      </div>
-      <div class="technology-card">
-        <i class="devicon-postman-plain colored technology-icon"></i>
-        <p class="technology-name">Post MAN</p>
       </div>
     </div>
     <div class="technology technology-devops">
       <div class="technology-card">
-        <i class="devicon-docker-plain colored technology-icon"></i>
-        <p class="technology-name">Docker</p>
-      </div>
-      <div class="technology-card">
-        <i
-          class="devicon-amazonwebservices-plain-wordmark colored technology-icon"
-        ></i>
+        <i class="devicon-amazonwebservices-plain-wordmark technology-icon"></i>
         <p class="technology-name">AWS</p>
       </div>
       <div class="technology-card">
-        <i class="devicon-git-plain colored technology-icon"></i>
+        <i class="devicon-docker-plain technology-icon"></i>
+        <p class="technology-name">Docker</p>
+      </div>
+      <div class="technology-card">
+        <i class="devicon-git-plain technology-icon"></i>
         <p class="technology-name">GIT</p>
+      </div>
+      <div class="technology-card">
+        <i class="devicon-postman-plain technology-icon"></i>
+        <p class="technology-name">Post MAN</p>
       </div>
     </div>
     <div class="technology technology-frontend">
       <div class="technology-card">
-        <i class="devicon-javascript-plain colored technology-icon"></i>
+        <i class="devicon-javascript-plain technology-icon"></i>
         <p class="technology-name">JavaScript</p>
       </div>
       <div class="technology-card">
-        <i class="devicon-vuejs-plain colored technology-icon"></i>
+        <i class="devicon-vuejs-plain technology-icon"></i>
         <p class="technology-name">VueJS</p>
       </div>
       <div class="technology-card">
-        <i class="devicon-html5-plain colored technology-icon"></i>
+        <i class="devicon-html5-plain technology-icon"></i>
         <p class="technology-name">HTML</p>
       </div>
       <div class="technology-card">
-        <i class="devicon-css3-plain colored technology-icon"></i>
+        <i class="devicon-css3-plain technology-icon"></i>
         <p class="technology-name">CSS</p>
       </div>
     </div>
@@ -82,13 +80,13 @@
 .section {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: auto;
-  margin: 50px auto;
-  width: 600px;
+  margin: 30px auto;
+  width: 480px;
 }
 .technology {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: auto;
   display: flex;
   flex-direction: row;
@@ -100,14 +98,31 @@
   margin: 2px;
 }
 .technology-icon {
-  font-size: 40px;
-  background-color: beige;
-  padding: 14px;
+  font-size: 30px;
+  background-color: rgba(252, 248, 236, 0.8);
+  padding: 10px;
   line-height: 75px;
   border-radius: 40px;
   margin: 0 0 0 14px;
 }
 .technology-name {
   text-align: center;
+  font-size: 14px;
+}
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: rgba(252, 248, 236, 0.9);
+}
+p {
+  font-weight: 200;
+  font-size: 20px;
+  color: rgba(252, 248, 236, 0.9);
+}
+h3 {
+  color: rgba(252, 248, 236, 0.9);
+}
+i {
+  color: #151965;
 }
 </style>

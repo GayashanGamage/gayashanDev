@@ -18,12 +18,13 @@ name: "App";
 <style>
 * {
   margin: 0px;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   display: grid;
   width: 100%;
-  height: 731px;
-  grid-template-columns: 1fr 750px;
+  height: 850px;
+  grid-template-columns: 1fr 850px;
   grid-template-rows: 2fr 20fr 2fr;
   grid-template-areas:
     "intoduction menu"
@@ -32,6 +33,7 @@ name: "App";
 }
 .intro {
   grid-area: intoduction;
+  background-color: #151965;
 }
 .menu {
   grid-area: menu;
