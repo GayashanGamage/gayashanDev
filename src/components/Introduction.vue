@@ -11,24 +11,20 @@
       <button class="intro-button" @click="downlodCV">
         <span class="material-symbols-outlined"> description </span>Download CV
       </button>
-
-      <a href="https://www.linkedin.com/in/gayashangamage/" target="_blank">
-        <button class="intro-button intro-button-linkedin">
-          <span class="material-symbols-outlined">person_add</span>LinkedIn
-        </button>
-      </a>
-      <a
-        href="https://drive.google.com/uc?export=download&id=1E6pIADncCSR4YqcsPG_EjRSWAFhr9WaHXc6NL-Ek7-s"
-        >this is link</a
-      >
+      <button class="intro-button intro-button-linkedin" @click="linkedinLink">
+        <span class="material-symbols-outlined">person_add</span>LinkedIn
+      </button>
     </div>
   </div>
 </template>
 <script setup>
 const downlodCV = () => {
   const downlodableLink =
-    "https://drive.google.com/uc?export=download&id=1E6pIADncCSR4YqcsPG_EjRSWAFhr9WaHXc6NL-Ek7-s";
+    "https://drive.google.com/uc?export=download&id=1OFh3h0rmSQaxu2TGfhyk79zGxDMTjzPw";
   window.open(downlodableLink, "_blank");
+};
+const linkedinLink = () => {
+  window.open("https://www.linkedin.com/in/gayashangamage/", "_blank");
 };
 </script>
 
@@ -46,6 +42,10 @@ const downlodCV = () => {
   border-radius: 4px;
   font-weight: 600;
   font-size: 16px;
+}
+.intro-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 .intro-button-linkedin {
   margin-left: 20px;
