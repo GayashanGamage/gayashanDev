@@ -8,22 +8,29 @@
       businees tasks and daily life
     </p>
     <div class="intro-button-div">
-      <a href="/public/Resume.pdf" target="_blank">
-        <button class="intro-button">
-          <span class="material-symbols-outlined"> description </span>Download
-          CV
-        </button>
-      </a>
+      <button class="intro-button" @click="downlodCV">
+        <span class="material-symbols-outlined"> description </span>Download CV
+      </button>
+
       <a href="https://www.linkedin.com/in/gayashangamage/" target="_blank">
         <button class="intro-button intro-button-linkedin">
           <span class="material-symbols-outlined">person_add</span>LinkedIn
         </button>
       </a>
+      <a
+        href="https://drive.google.com/uc?export=download&id=1E6pIADncCSR4YqcsPG_EjRSWAFhr9WaHXc6NL-Ek7-s"
+        >this is link</a
+      >
     </div>
   </div>
 </template>
-
-<script setup></script>
+<script setup>
+const downlodCV = () => {
+  const downlodableLink =
+    "https://drive.google.com/uc?export=download&id=1E6pIADncCSR4YqcsPG_EjRSWAFhr9WaHXc6NL-Ek7-s";
+  window.open(downlodableLink, "_blank");
+};
+</script>
 
 <style scope>
 .intro-button-div {
