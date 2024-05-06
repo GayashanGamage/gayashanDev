@@ -8,12 +8,17 @@
       businees tasks and daily life
     </p>
     <div class="intro-button-div">
-      <button class="intro-button">
-        <span class="material-symbols-outlined"> description </span>Download CV
-      </button>
-      <button class="intro-button intro-button-linkedin">
-        <span class="material-symbols-outlined">person_add</span>LinkedIn
-      </button>
+      <a href="/public/Resume.pdf" target="_blank">
+        <button class="intro-button">
+          <span class="material-symbols-outlined"> description </span>Download
+          CV
+        </button>
+      </a>
+      <a href="https://www.linkedin.com/in/gayashangamage/" target="_blank">
+        <button class="intro-button intro-button-linkedin">
+          <span class="material-symbols-outlined">person_add</span>LinkedIn
+        </button>
+      </a>
     </div>
   </div>
 </template>
