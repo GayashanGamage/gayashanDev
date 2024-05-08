@@ -44,8 +44,9 @@ const linkedinLink = () => {
   font-size: 16px;
 }
 .intro-button:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: burlywood;
   color: black;
+  border: 2px solid black;
 }
 .intro-button-linkedin {
   margin-left: 20px;
