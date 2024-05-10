@@ -48,7 +48,7 @@ const visitMedium = (url) => {
 .c-levelTwo-container {
   padding: 8px;
   border-radius: 5px;
-  box-shadow: 2px 2px 4px;
+  box-shadow: 1px 1px 3px;
   width: 100%;
   margin: 3vh 0;
   display: flex;
