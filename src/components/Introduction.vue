@@ -8,11 +8,11 @@
       business task and daily life
     </p>
     <div class="c-levelTwo-container buttons">
-      <button class="action-button">
+      <button class="action-button" @click="downloadcv">
         <span class="button-name">Download CV</span>
         <span class="button-icon material-icons">download</span>
       </button>
-      <button class="action-button">
+      <button class="action-button" @click="openLinkedIn">
         <span class="button-name">LinkedIn</span>
         <span class="button-icon material-icons">group_add</span>
       </button>
@@ -20,7 +20,16 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const downloadcv = () => {
+  window.open(
+    "https://drive.google.com/uc?export=download&id=14LsetNNwaelSGdDb82B5qzaYTRaj-Gbr"
+  );
+};
+const openLinkedIn = () => {
+  window.open("https://www.linkedin.com/in/gayashangamage/");
+};
+</script>
 
 <style scoped>
 .c-levelOne-container {
