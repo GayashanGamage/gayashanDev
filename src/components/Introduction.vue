@@ -1,71 +1,42 @@
 <template>
-  <div>
-    <p class="intro-description">Hi... I'm...</p>
-    <h1 class="intro-name">Gayashan Gamage</h1>
-    <p class="intro-title">SOFTWARE ENGINEER</p>
-    <p class="intro-description">
-      I love build logical stuff using code and my fingers to get easier your
-      businees tasks and daily life
+  <div class="c-levelOne-container">
+    <p class="description">Hi.. I'm..</p>
+    <h1 class="description name">Gayashan Gamage</h1>
+    <h3 class="description position">SOFTWARE ENGINEER</h3>
+    <p class="description">
+      I love build logical stuff using code lines and my fingers to get easier
+      business task and daily life
     </p>
-    <div class="intro-button-div">
-      <button class="intro-button" @click="downlodCV">
-        <span class="material-symbols-outlined"> description </span>Download CV
-      </button>
-      <button class="intro-button intro-button-linkedin" @click="linkedinLink">
-        <span class="material-symbols-outlined">person_add</span>LinkedIn
-      </button>
+    <div class="c-levelTwo-container buttons">
+      <button>Download CV</button>
+      <button>LinkedIn</button>
     </div>
   </div>
 </template>
-<script setup>
-const downlodCV = () => {
-  const downlodableLink =
-    "https://drive.google.com/uc?export=download&id=1OFh3h0rmSQaxu2TGfhyk79zGxDMTjzPw";
-  window.open(downlodableLink, "_blank");
-};
-const linkedinLink = () => {
-  window.open("https://www.linkedin.com/in/gayashangamage/", "_blank");
-};
-</script>
 
-<style scope>
-.intro-button-div {
-  margin-top: 5%;
-  display: flex;
-  /* justify-content: center; */
+<script setup></script>
+
+<style scoped>
+.c-levelOne-container {
+  /* border: 1px solid black; */
+  margin: 25vh 3vw;
 }
-.intro-button {
-  padding: 10px 20px;
-  background-color: black;
-  color: burlywood;
-  border: 0px;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 16px;
+.description {
+  color: var(--font-color);
+  font-size: 2rem;
 }
-.intro-button:hover {
-  background-color: burlywood;
-  color: black;
-  border: 2px solid black;
-}
-.intro-button-linkedin {
-  margin-left: 20px;
-}
-.intro-name {
-  font-size: 90px;
-  padding: 0 0 20px 0;
-}
-.intro-description {
-  font-size: 24px;
-  font-weight: 300;
-}
-.intro-title {
-  font-size: 24px;
+.name {
+  font-size: 4rem;
   font-weight: 900;
-  padding: 0 0 20px 0;
 }
-.material-symbols-outlined {
-  font-family: "Material Icons";
-  margin-right: 15px;
+button {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--button-background-color);
+  font-size: var(--button-font-size);
+  color: var(--button-font-color);
+  padding: 12px 25px;
+  border: 0px;
+  border-radius: 6px;
+  margin-right: 20px;
 }
 </style>

@@ -1,0 +1,23 @@
+{
+  "coaching-platform": {
+    "id": 1,
+    "name": "coaching-platform",
+    "short-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi consequuntur facere necessitatibus quis. Eos optio impedit sapiente ratione cum",
+    "domain": "https://www.dineshfernando.lk",
+    "techstack": ["vueJs", "fastAPI", "MongoDB"]
+  },
+  "ecommerce-platform": {
+    "id": 2,
+    "name": "ecommerce-platform",
+    "short-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi consequuntur facere necessitatibus quis. Eos optio impedit sapiente ratione cum",
+    "domain": "https://www.jayasundarastores.lk",
+    "techstack": ["JavaScript", "Django", "postgreSQL"]
+  },
+  "productivity-platform": {
+    "id": 3,
+    "name": "productivity-platform",
+    "short-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi consequuntur facere necessitatibus quis. Eos optio impedit sapiente ratione cum",
+    "domain": "https://www.studyfocus.co",
+    "techstack": ["vueJs", "fastAPI", "MongoDB"]
+  }
+}
