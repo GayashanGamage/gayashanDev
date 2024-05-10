@@ -101,6 +101,7 @@
 .dev-name {
   padding: 13px;
   background-color: white;
+  color: #2c2b7f;
   font-size: 1.8rem;
   border-radius: 4px 0 0 4px;
 }

@@ -21,6 +21,7 @@
   display: flex;
   height: 100%;
   gap: 2px;
+  background-color: aliceblue;
 }
 .menu-button {
   background-color: var(--button-background-color);
@@ -33,6 +34,7 @@
   text-decoration: none;
   font-size: 1.4rem;
   text-align: center;
+  border-bottom: 2px solid aliceblue;
 }
 .menu-button:hover {
   background-color: var(--button-hover-color);

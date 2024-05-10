@@ -55,7 +55,7 @@ body {
   grid-area: content;
   min-height: 85vh;
   max-height: auto;
-  margin: 2px 0 0 0;
+  margin: 0px 0 0 0;
   background-color: var(--background-color-content);
 }
 </style>
