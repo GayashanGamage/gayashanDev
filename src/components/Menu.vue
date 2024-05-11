@@ -1,7 +1,7 @@
 <template>
   <div class="c-levelOne-container">
     <div class="menu-button">
-      <router-link to="/project" class="menu-button">Projects</router-link>
+      <router-link to="/" class="menu-button">Projects</router-link>
     </div>
     <div class="menu-button">
       <router-link to="/leetcode" class="menu-button">LeetCode</router-link>

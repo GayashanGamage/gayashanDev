@@ -14,11 +14,6 @@ const router = createRouter({
       component: Mywork,
     },
     {
-      path: "/project",
-      name: "project",
-      component: Mywork,
-    },
-    {
       path: "/project/:projectName",
       name: "single-project",
       component: IndividualWork,
