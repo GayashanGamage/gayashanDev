@@ -15,7 +15,7 @@ const router = createRouter({
     },
     {
       path: "/project/:projectName",
-      name: "single-project",
+      name: "singleProject",
       component: IndividualWork,
     },
     {

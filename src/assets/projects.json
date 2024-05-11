@@ -2,22 +2,64 @@
   "coaching-platform": {
     "id": 1,
     "name": "coaching-platform",
-    "short-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi consequuntur facere necessitatibus quis. Eos optio impedit sapiente ratione cum",
     "domain": "https://www.dineshfernando.lk",
-    "techstack": ["vueJs", "fastAPI", "MongoDB"]
+    "github": "https://www.github.com/owefiowj",
+    "short-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi consequuntur facere necessitatibus quis. Eos optio impedit sapiente ratione cum",
+    "techstack": ["vueJs", "fastAPI", "MongoDB"],
+    "objective": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, optio officiis? Quam, iure quas amet praesentium mollitia nobis, adipisci sit temporibus rem tempora necessitatibus, accusantium culpa. Illum repellat culpa minima, explicabo officiis magni molestias quod assumenda nihil, evenie accusamus! Incidunt?",
+    "features": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!"
+    ],
+    "challengers": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!"
+    ]
   },
   "ecommerce-platform": {
-    "id": 2,
+    "id": 1,
     "name": "ecommerce-platform",
+    "domain": "https://www.dineshfernando.lk",
+    "github": "https://www.github.com/owefiowj",
     "short-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi consequuntur facere necessitatibus quis. Eos optio impedit sapiente ratione cum",
-    "domain": "https://www.jayasundarastores.lk",
-    "techstack": ["JavaScript", "Django", "postgreSQL"]
+    "techstack": ["vueJs", "fastAPI", "MongoDB"],
+    "objective": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, optio officiis? Quam, iure quas amet praesentium mollitia nobis, adipisci sit temporibus rem tempora necessitatibus, accusantium culpa. Illum repellat culpa minima, explicabo officiis magni molestias quod assumenda nihil, evenie accusamus! Incidunt?",
+    "features": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!"
+    ],
+    "challengers": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!"
+    ]
   },
   "productivity-platform": {
-    "id": 3,
+    "id": 1,
     "name": "productivity-platform",
+    "domain": "https://www.dineshfernando.lk",
+    "github": "https://www.github.com/owefiowj",
     "short-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi consequuntur facere necessitatibus quis. Eos optio impedit sapiente ratione cum",
-    "domain": "https://www.studyfocus.co",
-    "techstack": ["vueJs", "fastAPI", "MongoDB"]
+    "techstack": ["vueJs", "fastAPI", "MongoDB"],
+    "objective": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, optio officiis? Quam, iure quas amet praesentium mollitia nobis, adipisci sit temporibus rem tempora necessitatibus, accusantium culpa. Illum repellat culpa minima, explicabo officiis magni molestias quod assumenda nihil, evenie accusamus! Incidunt?",
+    "features": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi!"
+    ],
+    "challengers": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta illum? Hic consectetur doloribus porro!"
+    ]
   }
 }

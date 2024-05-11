@@ -18,7 +18,7 @@
           <span class="icon-content">Live</span>
           <span class="icon-content material-icons"> open_in_new </span>
         </button>
-        <button class="button">
+        <button class="button" @click="individualWork(item['name'])">
           <span class="icon-content">More</span>
           <span class="icon-content material-icons"> ads_click </span>
         </button>
@@ -29,6 +29,11 @@
 
 <script setup>
 import projectData from "@/assets/projects.json";
+import router from "@/router";
+
+const individualWork = (projectName) => {
+  router.push({ name: "singleProject", params: { projectName: projectName } });
+};
 </script>
 
 <style scoped>
