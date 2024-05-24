@@ -2,8 +2,8 @@
   "coaching-platform": {
     "id": 1,
     "name": "coaching-platform",
-    "domain": "https://www.dineshfernando.lk",
-    "github": "https://www.github.com/owefiowj",
+    "domain": "https://dineshfernando.netlify.app/",
+    "github": "https://github.com/GayashanGamage/Dr.Dinesh-frontend",
     "short-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi consequuntur facere necessitatibus quis. Eos optio impedit sapiente ratione cum",
     "techstack": ["vueJs", "fastAPI", "MongoDB"],
     "objective": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, optio officiis? Quam, iure quas amet praesentium mollitia nobis, adipisci sit temporibus rem tempora necessitatibus, accusantium culpa. Illum repellat culpa minima, explicabo officiis magni molestias quod assumenda nihil, evenie accusamus! Incidunt?",
