@@ -14,7 +14,7 @@
         </p>
       </div>
       <div class="c-levelThree-container button-container">
-        <button class="button">
+        <button class="button" @click="liveProject(item['domain'])">
           <span class="icon-content">Live</span>
           <span class="icon-content material-icons"> open_in_new </span>
         </button>
@@ -30,6 +30,10 @@
 <script setup>
 import projectData from "@/assets/projects.json";
 import router from "@/router";
+
+const liveProject = (projectURL) => {
+  window.open(projectURL);
+};
 
 const individualWork = (projectName) => {
   router.push({ name: "singleProject", params: { projectName: projectName } });
